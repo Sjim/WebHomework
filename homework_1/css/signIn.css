@@ -1,11 +1,25 @@
-.center{
-    text-align: center;
-}
 .deviate{
     position: relative;
     right: 16px;
 }
-
-body{
-    background-size: 100%;
+.center{
+    text-align: center;
+}
+.box{
+    background-color: gray;
+    text-align: center;
+    width: 20%;
+    height: 15%;
+    padding-top: 40px;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding-bottom: 40px;
+}
+.box>*{
+    margin: 10px;
+}
+.index{
+    color:black;
+    text-align: center;
+    padding-top: 20%;
 }
