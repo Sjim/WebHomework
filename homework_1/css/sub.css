@@ -1,8 +1,17 @@
 .head,
-.return{
-    text-align: center;
-    font-size: x-large;
+.return {
+  text-align: center;
+  font-size: x-large;
 }
 .picture img {
-    width: 100vw;
+  width: 100vw;
+}
+.watermark {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  pointer-events: none;
+  background-repeat: repeat;
 }
